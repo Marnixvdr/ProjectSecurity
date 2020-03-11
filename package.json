@@ -17,7 +17,7 @@
   },
   "scripts": {
     
-    "start": "concurrently \"npm run server\" \"npm run client\" ",
+    "start": " react-scripts build && npm run server && npm run client ",
     "server": "node server.js",
     "client": "node start-client.js",
     "build": "concurrently \"npm start\" \"react-scripts build\" "
