@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "1.0.7"
+    "react-scripts": "^1.0.7"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "start": "react-scripts start",    
+    "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

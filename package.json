@@ -17,10 +17,10 @@
   },
   "scripts": {
     
-    "start": " react-scripts build && npm run server && npm run client ",
+    "start": "concurrently \"npm run server\" \"npm run client\" ",
     "server": "node server.js",
     "client": "node start-client.js",
-    "build": "concurrently \"npm start\" \"react-scripts build\" "
+    "build": "react-scripts build"
   },
   "devDependencies": {
     "concurrently": "^3.1.0"
