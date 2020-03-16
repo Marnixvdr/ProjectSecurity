@@ -20,10 +20,10 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-const host = 'localhost';
-const user = 'root';
-const pswd = 'root';
-const dbname = 'books';
+const host = 'remotemysql.com';
+const user = '96hejV7FKE';
+const pswd = 'qCNyHb1Wfd';
+const dbname = '96hejV7FKE';
 
 // config db ====================================
 const pool = mysql.createPool({
