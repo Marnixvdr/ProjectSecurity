@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "concurrently": "^3.1.0",
-    "react-scripts": "^1.0.7"
+    "react-scripts": "^1.0.7",
+    "node": "13.10.1"
   }
 }
